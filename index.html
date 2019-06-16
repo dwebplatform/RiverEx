@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Video</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <ul class="menu">
+            <li class="img"> </li>
+            <li class="menu-text">O MICE</li>
+            <li class="menu-text">Реализованные проекты</li>
+            <li class="menu-text">Популярные направления</li>
+            <li class="menu-text">Отзывы</li>
+            <li class="contacts"><span class="contacts-item"> (495) 989 19 98</span>
+                <span class="contacts-item"> <a href="#" class="order-call-href">заказать звонок</a></span></li>
+        </ul>
+        <svg width="100%" height="2">
+                <rect  x="0" class="stroke" y="0" width="100%" height="2"/> 
+                    </svg>
+    </div>
+    <section class="section-video">
+        <div class="section-container">
+            <div class="left-text">
+                <h2> Проведите яркое <span class="corp-span"> корпоративное <br/> мероприятие за рубежом <br/></span> и сократите расходы компании на<br/> организацию ивента до 30% *
+                </h2>
+                <svg width="100vh" height="10">
+                        <rect  x="0" class="stroke" y="0" width="30%" height="2"/> 
+                            </svg>
+
+                <p class="sub-text">Индивидуальная разработка, проведение и сопровождение выездных MICE-<br/> мероприятий «под ключ» от экспертов в сфере делового туризма</p>
+                <button class="online-btn">Бесплатная консультация</button>
+            </div>
+            <div class="video-container">
+                <span class="skew-item-1 "></span>
+                <span class="skew-item-2"></span>
+                <span class="skew-item-3"></span>
+
+                <video class="inner-video" loop autoplay="autoplay">
+                <source src="videos/river.omg" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="videos/river.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="videos/river.webm" type='video/webm; codecs="vp8, vorbis"'>
+                Тег video не поддерживается вашим браузером. 
+                </video>
+            </div>
+        </div>
+    </section>
+    <section class="middle-section">
+        <img class="middle-img" src="./images/waterfall.jpg" />
+        <div class="middle-cover">&nbsp;</div>
+        <div class="middle-main">
+            <h2 class="middle-header">Получите лучшую идею <br/> проведения вашего мероприятия <br/> и прогноз стоимости уже через 30 минут!</h2>
+
+            <svg width="100%" height="2">
+        <rect  x="400" class="stroke" y="0" width="30%" height="2"/> 
+     </svg>
+            <div class="middle-form">
+
+                <form class="form-grid" onsubmit="return validate(event);">
+                    <input type="text" placeholder="Имя" id="UserName" />
+
+
+                    <input id="UserPhone" placeholder="Телефон" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <select id="TypeofFun"><option  disabled>Вид мероприятия</option>
+                        <option value="Серфинг">Серфинг</option>
+                        <option   value="Боулинг">Боулинг</option>
+                        <option value="Керлинг">Керлинг</option>
+                    </select>
+                    <div class="mansAndDays">
+                        <div class="amount-man-div">
+                            <input id="amountOfPeople" placeholder="Кол-во человек" />
+                        </div>
+                        <div class="amount-day-div">
+                            <input id="amountOfDay" placeholder="Кол-во дней" />
+                        </div>
+                    </div>
+                    <input type="date" id="aproxData" placeholder="ориентировочная дата" />
+                    <select id="selectCountry"><option>
+                         Швеция
+                     </option>
+                    <option>Италя</option></select>
+                    <button class="middle-form-sbtm-btn" type="submit">Получить</button>
+                </form>
+                <div style="width:100%;height:3vh;"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="last-section">
+
+        <div class="last-section-main-cover">
+            <h2 class="last-header">Почему нас выбриают</h2>
+            <svg width="100%" height="2">
+                    <rect  x="0" class="stroke" y="0" width="40%" height="2"/> 
+                        </svg>
+
+            <div class="wrapper">
+                <div id="slider" class="slider">
+                    <div class="slider-item">
+                        <div class="img-wrapper">
+                            <img class="img-slider" src="./images/work-img.jpg" alt="">
+                        </div>
+
+                        <div class="slider-text">
+                            <p>
+                                <h3>100% внимания к проекту</h3>
+                                <span class="slider-text-desc">                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nisi, sunt pariatur facere ipsam ipsa culpa voluptatibus. Ipsum asperiores quasi saepe numquam voluptatem iste id, doloremque nam aspernatur, nisi in!Recusandae nesciunt minima fuga in repellat
+                                                                       velit non asperiores tenetur, maiores repudiandae itaque atque doloribus explicabo eligendi veniam amet unde. Nisi officia alias eaque reiciendis autem soluta, voluptatum quidem facilis?
+                                                                   </span>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="slider-item">
+                        <div class="img-wrapper">
+                            <img class="img-slider" src="./images/work-img.jpg" alt="">
+                        </div>
+
+                        <div class="slider-text">
+                            <p>
+                                <h3>100% отдачи</h3>
+                                <span class="slider-text-desc">                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nisi, sunt pariatur facere ipsam ipsa culpa voluptatibus. Ipsum asperiores quasi saepe numquam voluptatem iste id, doloremque nam aspernatur, nisi in!Recusandae nesciunt minima fuga in repellat
+                                                                       velit non asperiores tenetur, maiores repudiandae itaque atque doloribus explicabo eligendi veniam amet unde. Nisi officia alias eaque reiciendis autem soluta, voluptatum quidem facilis?
+                                                                   </span>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="slider-item">
+                        <div class="img-wrapper">
+                            <img class="img-slider" src="./images/work-img.4.jpg" alt="">
+                        </div>
+
+                        <div class="slider-text">
+                            <p>
+                                <h3>дружный коллектив</h3>
+                                <span class="slider-text-desc">                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nisi, sunt pariatur facere ipsam ipsa culpa voluptatibus. Ipsum asperiores quasi saepe numquam voluptatem iste id, doloremque nam aspernatur, nisi in!Recusandae nesciunt minima fuga in repellat
+                                                               velit non asperiores tenetur, maiores repudiandae itaque atque doloribus explicabo eligendi veniam amet unde. Nisi officia alias eaque reiciendis autem soluta, voluptatum quidem facilis?
+                                                           </span>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="slider-item">
+                        <div class="img-wrapper">
+                            <img class="img-slider" src="./images/work-img.2.jpg" alt="">
+                        </div>
+
+                        <div class="slider-text">
+                            <p>
+                                <h3>внимание к клиенту</h3>
+                                <span class="slider-text-desc">                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit nisi, sunt pariatur facere ipsam ipsa culpa voluptatibus. Ipsum asperiores quasi saepe numquam voluptatem iste id, doloremque nam aspernatur, nisi in!Recusandae nesciunt minima fuga in repellat
+                                                               velit non asperiores tenetur, maiores repudiandae itaque atque doloribus explicabo eligendi veniam amet unde. Nisi officia alias eaque reiciendis autem soluta, voluptatum quidem facilis?
+                                                           </span>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="last-btns">
+                <button class="prevBtn" onclick="prev();">&#8592;</button>
+
+                <button class="nextBtn" onclick="next();">&#8594;</button>
+            </div>
+        </div>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
